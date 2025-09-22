@@ -22,14 +22,14 @@ Discover devices and open ports on my local network to understand service exposu
      ```bash
      ifconfig
      ```
-   * Found active interface `en0` with IP `192.168.0.115` and subnet mask `255.255.255.0` → `192.168.0.0/24`.
+   * Found active interface `en0` with IP `********` and subnet mask `********` → `********`.
 
 3. **Host Discovery (Ping Scan)**
 
    * Enumerated live hosts on the network:
 
      ```bash
-     sudo nmap -sn 192.168.0.0/24
+     sudo nmap -sn ********
      ```
    * Detected 11 active devices (router, Apple devices, IoT devices, etc.).
 
@@ -38,7 +38,7 @@ Discover devices and open ports on my local network to understand service exposu
    * Performed a stealth scan of all hosts:
 
      ```bash
-     sudo nmap -sS 192.168.0.0/24 -oN ~/Desktop/scan_results.txt
+     sudo nmap -sS 1********-oN ~/Desktop/scan_results.txt
      ```
    * Collected open ports (e.g., SSH, HTTP, MySQL, VNC, Kerberos, UPnP).
 
@@ -51,8 +51,8 @@ Discover devices and open ports on my local network to understand service exposu
      ```
    * Example findings:
 
-     * Router (`192.168.0.1`): SSH, DNS, HTTP config page, UPnP.
-     * My Mac (`192.168.0.115`): MySQL, VNC, RTSP/AirTunes, Kerberos, Microsoft-DS.
+     * Router (`**********`): SSH, DNS, HTTP config page, UPnP.
+     * My Mac (`*********`): MySQL, VNC, RTSP/AirTunes, Kerberos, Microsoft-DS.
      * Other hosts: iPhones exposing `62078/tcp` (sync), IoT with UPnP.
 
 6. **Saved Results**
