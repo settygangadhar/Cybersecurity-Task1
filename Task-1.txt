@@ -67,7 +67,7 @@ en0: flags=8863<UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST> mtu 1500
 	options=6460<TSO4,TSO6,CHANNEL_IO,PARTIAL_CSUM,ZEROINVERT_CSUM>
 	ether 26:1a:d5:19:bc:63
 	inet6 fe80::42f:69b0:a8a5:e62c%en0 prefixlen 64 secured scopeid 0xb 
-	inet 192.168.0.115 netmask 0xffffff00 broadcast 192.168.0.255
+	inet ******168.0.115 netmask 0xffffff00 broadcast ******168.0.255
 	nd6 options=201<PERFORMNUD,DAD>
 	media: autoselect
 	status: active
@@ -112,53 +112,53 @@ Available nsock engines: kqueue poll select
 gangadhar@Gangadhar-MacBook-Pro ~ % sudo installer -pkg /Users/gangadhar/Desktop/nmap-7.97.mpkg -target /
 
 installer: Error - the package path specified was invalid: '/Users/gangadhar/Desktop/nmap-7.97.mpkg'.
-gangadhar@Gangadhar-MacBook-Pro ~ % sudo nmap -sn 192.168.0.0/24
+gangadhar@Gangadhar-MacBook-Pro ~ % sudo nmap -sn **********
 
 Starting Nmap 7.98 ( https://nmap.org ) at 2025-09-22 18:11 +0530
-Nmap scan report for 192.168.0.1
+Nmap scan report for *********
 Host is up (0.012s latency).
 MAC Address: E4:FA:C4:DB:CE:74 (TP-Link PTE.)
-Nmap scan report for 192.168.0.100
+Nmap scan report for ********
 Host is up (0.11s latency).
 MAC Address: 28:02:44:6A:E1:53 (Apple)
-Nmap scan report for 192.168.0.101
+Nmap scan report for ******
 Host is up (0.0084s latency).
 MAC Address: E4:FA:C4:DB:C5:84 (TP-Link PTE.)
-Nmap scan report for 192.168.0.102
+Nmap scan report for *********
 Host is up (0.0084s latency).
 MAC Address: DC:62:79:1F:B1:EC (TP-Link PTE.)
-Nmap scan report for 192.168.0.105
+Nmap scan report for **********
 Host is up (0.12s latency).
 MAC Address: 5A:6B:78:BF:6F:01 (Unknown)
-Nmap scan report for 192.168.0.106
+Nmap scan report for *******
 Host is up (0.21s latency).
 MAC Address: C2:62:A7:88:B1:47 (Unknown)
-Nmap scan report for 192.168.0.118
+Nmap scan report for *******
 Host is up (0.044s latency).
 MAC Address: 96:B0:36:FA:85:29 (Unknown)
-Nmap scan report for 192.168.0.119
+Nmap scan report for *******
 Host is up (0.080s latency).
 MAC Address: 4E:93:4B:4B:35:AF (Unknown)
-Nmap scan report for 192.168.0.120
+Nmap scan report for ******168.0.120
 Host is up (0.20s latency).
 MAC Address: B4:8C:9D:66:27:9F (AzureWave Technology)
-Nmap scan report for 192.168.0.121
+Nmap scan report for ******168.0.121
 Host is up (0.15s latency).
 MAC Address: 5C:61:99:28:1F:73 (Cloud Network Technology Singapore PTE.)
-Nmap scan report for 192.168.0.115
+Nmap scan report for ******168.0.115
 Host is up.
 Nmap done: 256 IP addresses (11 hosts up) scanned in 9.89 seconds
-gangadhar@Gangadhar-MacBook-Pro ~ % nmap -sS 192.168.1.0/24 -oN scan_results.txt 
-nmap -sS 192.168.1.0/24 -oX scan_results.xml
+gangadhar@Gangadhar-MacBook-Pro ~ % nmap -sS ******168.1.0/24 -oN scan_results.txt 
+nmap -sS ******168.1.0/24 -oX scan_results.xml
 
 You requested a scan type which requires root privileges.
 QUITTING!
 You requested a scan type which requires root privileges.
 QUITTING!
-gangadhar@Gangadhar-MacBook-Pro ~ % nmap -sS 192.168.1.0/24 -oN scan_results.txt 
+gangadhar@Gangadhar-MacBook-Pro ~ % nmap -sS ******168.1.0/24 -oN scan_results.txt 
 You requested a scan type which requires root privileges.
 QUITTING!
-gangadhar@Gangadhar-MacBook-Pro ~ % sudo nmap -sS 192.168.0.0/24 -oN ~/Desktop/scan_results.txt
+gangadhar@Gangadhar-MacBook-Pro ~ % sudo nmap -sS ******168.0.0/24 -oN ~/Desktop/scan_results.txt
 
 Password:
 Starting Nmap 7.98 ( https://nmap.org ) at 2025-09-22 18:23 +0530
@@ -196,7 +196,7 @@ Stats: 0:03:36 elapsed; 245 hosts completed (10 up), 10 undergoing SYN Stealth S
 SYN Stealth Scan Timing: About 91.52% done; ETC: 18:26 (0:00:19 remaining)
 Stats: 0:04:19 elapsed; 245 hosts completed (10 up), 10 undergoing SYN Stealth Scan
 SYN Stealth Scan Timing: About 99.84% done; ETC: 18:27 (0:00:00 remaining)
-Nmap scan report for 192.168.0.1
+Nmap scan report for ******168.0.1
 Host is up (0.0078s latency).
 Not shown: 996 filtered tcp ports (no-response)
 PORT     STATE SERVICE
@@ -206,37 +206,37 @@ PORT     STATE SERVICE
 1900/tcp open  upnp
 MAC Address: E4:FA:C4:DB:CE:74 (TP-Link PTE.)
 
-Nmap scan report for 192.168.0.101
+Nmap scan report for ******168.0.101
 Host is up (0.011s latency).
-All 1000 scanned ports on 192.168.0.101 are in ignored states.
+All 1000 scanned ports on ******168.0.101 are in ignored states.
 Not shown: 1000 filtered tcp ports (no-response)
 MAC Address: E4:FA:C4:DB:C5:84 (TP-Link PTE.)
 
-Nmap scan report for 192.168.0.102
+Nmap scan report for ******168.0.102
 Host is up (0.011s latency).
-All 1000 scanned ports on 192.168.0.102 are in ignored states.
+All 1000 scanned ports on ******168.0.102 are in ignored states.
 Not shown: 1000 filtered tcp ports (no-response)
 MAC Address: DC:62:79:1F:B1:EC (TP-Link PTE.)
 
-Nmap scan report for 192.168.0.104
+Nmap scan report for ******168.0.104
 Host is up (0.31s latency).
-All 1000 scanned ports on 192.168.0.104 are in ignored states.
+All 1000 scanned ports on ******168.0.104 are in ignored states.
 Not shown: 1000 closed tcp ports (reset)
 MAC Address: 36:20:F5:96:0D:41 (Unknown)
 
-Nmap scan report for 192.168.0.105
+Nmap scan report for ******168.0.105
 Host is up (0.0075s latency).
-All 1000 scanned ports on 192.168.0.105 are in ignored states.
+All 1000 scanned ports on ******168.0.105 are in ignored states.
 Not shown: 1000 closed tcp ports (reset)
 MAC Address: 5A:6B:78:BF:6F:01 (Unknown)
 
-Nmap scan report for 192.168.0.106
+Nmap scan report for ******168.0.106
 Host is up (0.19s latency).
-All 1000 scanned ports on 192.168.0.106 are in ignored states.
+All 1000 scanned ports on ******168.0.106 are in ignored states.
 Not shown: 1000 closed tcp ports (reset)
 MAC Address: C2:62:A7:88:B1:47 (Unknown)
 
-Nmap scan report for 192.168.0.108
+Nmap scan report for ******168.0.108
 Host is up (0.022s latency).
 Not shown: 998 closed tcp ports (reset)
 PORT      STATE SERVICE
@@ -244,7 +244,7 @@ PORT      STATE SERVICE
 62078/tcp open  iphone-sync
 MAC Address: EE:E1:33:33:33:63 (Unknown)
 
-Nmap scan report for 192.168.0.109
+Nmap scan report for ******168.0.109
 Host is up (0.031s latency).
 Not shown: 998 closed tcp ports (reset)
 PORT      STATE SERVICE
@@ -252,20 +252,20 @@ PORT      STATE SERVICE
 62078/tcp open  iphone-sync
 MAC Address: F8:7D:76:8A:A8:92 (Apple)
 
-Nmap scan report for 192.168.0.120
+Nmap scan report for ******168.0.120
 Host is up (0.19s latency).
-All 1000 scanned ports on 192.168.0.120 are in ignored states.
+All 1000 scanned ports on ******168.0.120 are in ignored states.
 Not shown: 1000 filtered tcp ports (no-response)
 MAC Address: B4:8C:9D:66:27:9F (AzureWave Technology)
 
-Nmap scan report for 192.168.0.121
+Nmap scan report for ******168.0.121
 Host is up (0.056s latency).
 Not shown: 999 filtered tcp ports (no-response)
 PORT     STATE SERVICE
 3306/tcp open  mysql
 MAC Address: 5C:61:99:28:1F:73 (Cloud Network Technology Singapore PTE.)
 
-Nmap scan report for 192.168.0.115
+Nmap scan report for ******168.0.115
 Host is up (0.00020s latency).
 Not shown: 993 closed tcp ports (reset)
 PORT      STATE SERVICE
@@ -278,7 +278,7 @@ PORT      STATE SERVICE
 49152/tcp open  unknown
 
 Nmap done: 256 IP addresses (11 hosts up) scanned in 267.01 seconds
-gangadhar@Gangadhar-MacBook-Pro ~ % nmap -sV 192.168.0.0/24
+gangadhar@Gangadhar-MacBook-Pro ~ % nmap -sV ******168.0.0/24
 Starting Nmap 7.98 ( https://nmap.org ) at 2025-09-22 18:35 +0530
 Stats: 0:00:22 elapsed; 0 hosts completed (0 up), 256 undergoing Ping Scan
 Parallel DNS resolution of 2 hosts. Timing: About 50.00% done; ETC: 18:36 (0:00:01 remaining)
@@ -294,7 +294,7 @@ Stats: 0:02:44 elapsed; 254 hosts completed (2 up), 2 undergoing Service Scan
 Service scan Timing: About 90.91% done; ETC: 18:38 (0:00:10 remaining)
 Stats: 0:03:42 elapsed; 254 hosts completed (2 up), 2 undergoing Service Scan
 Service scan Timing: About 100.00% done; ETC: 18:39 (0:00:00 remaining)
-Nmap scan report for 192.168.0.1
+Nmap scan report for ******168.0.1
 Host is up (0.0038s latency).
 Not shown: 996 filtered tcp ports (no-response)
 PORT     STATE SERVICE VERSION
@@ -307,7 +307,7 @@ SF-Port53-TCP:V=7.98%I=7%D=9/22%Time=68D149FD%P=arm-apple-darwin24.4.0%r(D
 SF:NSVersionBindReqTCP,20,"\0\x1e\0\x06\x81\x81\0\x01\0\0\0\0\0\0\x07versi
 SF:on\x04bind\0\0\x10\0\x03");
 
-Nmap scan report for 192.168.0.115
+Nmap scan report for ******168.0.115
 Host is up (0.00034s latency).
 Not shown: 993 closed tcp ports (conn-refused)
 PORT      STATE SERVICE       VERSION
